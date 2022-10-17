@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Courses To Do List</title>
+</head>
+
+<body onLoad="initialData();">
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <input type="text" placeholder="Type the course.." id="course_name">
+                <input id="addButton" class="addButton"  type="submit" value="Add course" onclick="addCourse()">
+                <input id="updateButton" class="updateButton" type="submit" value="Update course" onclick="updateCourse(5)">
+            </div>
+        </div>
+        <div class="list_courses" id="list_courses">
+            <!-- <div class="course">
+                <div class="courseName">
+                    Course 1
+                </div>
+                <div class="courseActions">
+                    <button class="btn updateBtn">update</button>
+                    <button class="btn deleteBtn">delete</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

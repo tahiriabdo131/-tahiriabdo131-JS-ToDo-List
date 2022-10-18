@@ -22,7 +22,7 @@ Finally the user can delete a specific course by clicking on it with the cursor.
 ![image](https://user-images.githubusercontent.com/56969009/196293553-9376fe43-ad04-49c6-9af5-f332a741e2b7.png)
 ## Demo
 
-The link to the demonstration of the mini-project : https://tahiriabdo131.github.io/JS-ToDo-List-Courses/
+The link to the demonstration of the mini-project : https://tahiriabdo131.github.io/-tahiriabdo131-JS-ToDo-List/
 
 
 ## Tech Stack
